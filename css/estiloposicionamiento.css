@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.contenedor {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+}
+
+.punto {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
